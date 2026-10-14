@@ -1,0 +1,27 @@
+# Dependencies & Build Outputs
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+
+# Environment variables (SENSITIVE - NEVER COMMIT)
+.env*
+!.env.example
+
+# Obsolete Monolithic Single-File Bundle for GAS (Not used on Vercel)
+GAS_DEPLOY_Index.html
+
+# IDE & Local Snapshots
+.backup_locked_v1/
+.antigravity/
+.vscode/
+
+# Internal Audit Notes & AI Prompts (Not needed for Vercel/production)
+API_VERIFICATION.md
+DATABASE_MAPPING.md
+MOBILE_FUNCTION_MAP.md
+PWA_ARCHITECTURE_COMPARISON.md
+SECURITY_FINDINGS.md
+GEMINI.md

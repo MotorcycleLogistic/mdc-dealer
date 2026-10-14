@@ -1,0 +1,115 @@
+{
+  "spreadsheetId": "1Xy9095taEr4EQC7dWqOj_nPjaIDNsxyf6k6eN7Tb3Mc",
+  "lastUpdated": "2026-10-05T00:50:15.685Z",
+  "masterDealer": [
+    {
+      "kodeAhm": "01234",
+      "namaDealer": "PT. Daya Adicipta Motora - Cimahi",
+      "kodeDealer": "DLR-01234",
+      "kategori": "H1-H2-H3",
+      "kota": "Kota Cimahi",
+      "sentraDistribusi": "BAROS"
+    },
+    {
+      "kodeAhm": "05678",
+      "namaDealer": "PT. Astra Motor - Bandung",
+      "kodeDealer": "DLR-05678",
+      "kategori": "Wing",
+      "kota": "Kota Bandung",
+      "sentraDistribusi": "BANDUNG"
+    },
+    {
+      "kodeAhm": "00112",
+      "namaDealer": "PT. Tunas Dwipa Matra - Karawang",
+      "kodeDealer": "DLR-00112",
+      "kategori": "H1-H2-H3",
+      "kota": "Kab. Karawang",
+      "sentraDistribusi": "KARAWANG"
+    },
+    {
+      "kodeAhm": "02345",
+      "namaDealer": "PT. Nusantara Sakti - Cirebon",
+      "kodeDealer": "DLR-02345",
+      "kategori": "H1-H2-H3",
+      "kota": "Kota Cirebon",
+      "sentraDistribusi": "CIREBON"
+    },
+    {
+      "kodeAhm": "03456",
+      "namaDealer": "PT. Bintang Motor Jaya - Bogor",
+      "kodeDealer": "DLR-03456",
+      "kategori": "Wing",
+      "kota": "Kab. Bogor",
+      "sentraDistribusi": "BAROS"
+    },
+    {
+      "kodeAhm": "07890",
+      "namaDealer": "PT. Daya Adicipta Sandika - Bekasi",
+      "kodeDealer": "DLR-07890",
+      "kategori": "BigWing",
+      "kota": "Kota Bekasi",
+      "sentraDistribusi": "KARAWANG"
+    }
+  ],
+  "userMobile": [
+    {
+      "timestamp": "2026-09-01T08:00:00.000Z",
+      "email": "pdi.cimahi@honda.co.id",
+      "namaLengkap": "BUDI PRASETYO",
+      "noHp": "081234567890",
+      "kodeAhm": "01234",
+      "namaDealer": "PT. Daya Adicipta Motora - Cimahi",
+      "kodeDealer": "DLR-01234",
+      "kategori": "H1-H2-H3",
+      "kota": "Kota Cimahi",
+      "sentraDistribusi": "BAROS",
+      "role": "PDI Man"
+    },
+    {
+      "timestamp": "2026-09-01T08:30:00.000Z",
+      "email": "pdi.bandung@honda.co.id",
+      "namaLengkap": "AGUS HERMAWAN",
+      "noHp": "081398765432",
+      "kodeAhm": "05678",
+      "namaDealer": "PT. Astra Motor - Bandung",
+      "kodeDealer": "DLR-05678",
+      "kategori": "Wing",
+      "kota": "Kota Bandung",
+      "sentraDistribusi": "BANDUNG",
+      "role": "PDI Man"
+    }
+  ],
+  "klaimHeader": [],
+  "klaimDetail": [],
+  "masterTransporter": [
+    {
+      "transporter": "PT. PUNINAR LOGISTICS",
+      "nopol": "B 9214 UZX",
+      "kontak": "081288990011"
+    },
+    {
+      "transporter": "PT. WINDU SAKTI SENTOSA",
+      "nopol": "D 8099 AF",
+      "kontak": "081288990022"
+    },
+    {
+      "transporter": "PT. WINDU SAKTI SENTOSA",
+      "nopol": "D 8841 AB",
+      "kontak": "081288990033"
+    },
+    {
+      "transporter": "PT. TIRA MITRA TRANSPORT",
+      "nopol": "B 9042 KXS",
+      "kontak": "081288990044"
+    },
+    {
+      "transporter": "PT. RATU JASA TRANS MANDIRI",
+      "nopol": "E 9122 YC",
+      "kontak": "081288990055"
+    }
+  ],
+  "masterMotor": [],
+  "masterPart": [],
+  "masterKerusakan": [],
+  "masterPenyebab": []
+}
