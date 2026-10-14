@@ -322,14 +322,15 @@ function loginUser(email, kodeAhm) {
       const rowKodeAhm = (data[i][4] || '').toString().trim();
 
       if (rowEmail === targetEmail) {
-        if (rowKodeAhm === targetKodeAhm) {
+        if (rowKodeAhm === targetKodeAhm || isAhmCodeMatch(rowKodeAhm, targetKodeAhm)) {
+          var cleanKodeAhm = normalizeAhmCode(rowKodeAhm).padded || rowKodeAhm.replace(/^'/, '');
           return {
             status: 'SUCCESS',
             user: {
               email: targetEmail,
               nama: data[i][2] || '',
-              noHp: data[i][3] || '',
-              kodeAhm: rowKodeAhm,
+              noHp: (data[i][3] || '').toString().replace(/^'/, ''),
+              kodeAhm: cleanKodeAhm,
               namaDealer: data[i][5] || '',
               kodeDealer: data[i][6] || '',
               kategori: data[i][7] || '',
