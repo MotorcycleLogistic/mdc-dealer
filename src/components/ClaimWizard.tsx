@@ -1324,8 +1324,10 @@ export const ClaimWizard: React.FC<ClaimWizardProps> = ({
   };
 
   return (
-    <div className="min-h-screen bg-[#f8fafc] text-slate-900 pb-24">
-      {/* Wizard Header */}
+    <div className="min-h-[100dvh] w-full bg-slate-100 flex justify-center selection:bg-red-500 selection:text-white font-sans antialiased text-slate-900">
+      {/* Mobile Shell Frame */}
+      <div className="w-full max-w-md bg-[#f8fafc] min-h-[100dvh] shadow-xl relative border-x border-slate-200 flex flex-col text-slate-900 pb-28">
+        {/* Wizard Header */}
       <div className="sticky top-0 z-30 flex items-center justify-between px-3.5 py-2.5 bg-white border-b border-slate-200/90 shadow-2xs">
         <button
           type="button"
@@ -2901,7 +2903,7 @@ export const ClaimWizard: React.FC<ClaimWizardProps> = ({
       )}
 
       {/* Floating Bottom Navigation Bar */}
-      <div className="fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200 p-3 shadow-lg">
+      <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md z-40 bg-white/95 backdrop-blur-md border-t border-slate-200 border-x border-slate-200/80 p-3 shadow-lg">
         {/* Progress Bar (Hanya untuk simpan draft lokal) */}
         {isSubmitting && submittingStatus === 'Draft' && (
           <div className="max-w-md mx-auto mb-2 overflow-hidden rounded-full bg-slate-100 h-1.5 border border-slate-200 p-[1px]">
@@ -3116,6 +3118,7 @@ export const ClaimWizard: React.FC<ClaimWizardProps> = ({
             </>
           )}
         </div>
+      </div>
       </div>
 
       {/* Barcode Scanner Modal */}
